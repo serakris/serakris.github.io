@@ -1,0 +1,46 @@
+.antraste {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6b5516;
+}
+#vardaspavarde {
+    text-align: center;
+    font-style: italic;
+}
+.lp {
+    width: 400px;
+    border: 5px solid #6b5516;
+    text-align: left;
+}
+table {
+    width: 100%;
+}
+body {
+    background-color: #ffedbd;
+}
+tr {
+    height: 200px;
+}
+.langeliai {
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15pt;
+    color: #6b5516;
+    width: 45%;
+}
+#cepelinai {
+    width: 50%;
+    border: 5px solid #6b5516;
+}
+h2 {
+    text-align: center;
+    color: #6b5516;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+
+}
+ul, ol {
+    text-align: center;
+    color: #6b5516;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+    list-style-position: inside;
+}
