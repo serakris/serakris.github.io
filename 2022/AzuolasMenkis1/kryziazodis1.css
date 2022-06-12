@@ -1,0 +1,71 @@
+  td {
+	border: 1px solid black;
+	width: 2rem;
+	height: 2rem;
+	text-align: center;
+	
+	
+}
+
+.table {
+	border-collapse: collapse;
+	margin-left:400px;
+	margin-right:60px;
+	margin-top:10em;
+	user-select: none;
+	
+	float: left;
+	
+}
+.td:empty{
+	background:rgb(240,111,88);
+}
+td{
+	background:white;
+}
+sup{
+	position: absolute;
+	color: black;
+
+}
+
+body{
+position: relative;
+background-image: url("background.png") ;
+background-size: cover;
+z-index: -1; 
+position: absolute;
+ height: 100vh
+}
+
+
+.div1{color: white;}
+.div2{color: white;}
+.div3{color: white;}
+.div4{color: white;}
+.div5{color: white;}
+.div6{color: white;}
+.div7{color: white;}
+.div8{color: white;}
+.div9{color: white;}
+.div10{color: white;}
+.pakeitimas{
+	color: black;
+}
+
+.klsm{
+
+float: left;
+	margin-top:10em;
+	background-color:white;
+	border-radius: 10px;
+	height: 36em;
+	border-style:solid;
+	border-width:5px;
+	border-color:orangered;
+	background-color: rgba(255, 198, 145,0.9);
+
+}
+#klausimas {
+	font-size: 120%;
+}

@@ -1,0 +1,119 @@
+body {
+  font-family: Roboto;
+  background: linear-gradient(to bottom, #b3c5db, #1F1C18);
+}
+
+#dėžutė {
+  height: 550px;
+  width: 360px;
+  margin: 100px auto;
+  background: #dde2ee;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+h1 {
+  background: #172230;
+  color: white;
+  margin: 0;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+}
+
+p {
+  padding-left: 20px;
+}
+
+form input[type="text"] {
+  width:90px;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#sąskaitaamt {
+  font-size: 14px;
+  color: black;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+}
+
+#sąskaitaamt:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#žmonėsamt {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+
+.dollarSign {
+  display: inline;
+}
+
+#aptkokybė {
+  padding: 13px 13px 20px 20px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #172230;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+
+button:hover {
+  background: #2f4461;
+  border-bottom-color: #111;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#galutarbat {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#galutarbat:before {
+  content: "Arbatpinigiai";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#galutarbat sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#galutarbat small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}

@@ -1,0 +1,117 @@
+body {
+    background-color: #FFD3DA;
+}
+.virsuj {
+    height: 50px;
+    text-align:center;
+}
+.title {
+    font-weight: bold;
+    color: #AF125A;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+    margin:0;
+    padding-top:8px;
+    display: inline-block;
+}
+.topbtn {
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    background-color: #AF125A;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+.topbtn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    padding: 10px;
+}
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    margin-top:0;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.formules {
+    font-family: arial;
+    font-size: 23px;
+    color: white;
+    background-color: #AF125A;
+    border: none;
+    width: 200px;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    margin-top:0;
+    height:113px;
+}
+.tekstai {
+    margin:20px;
+}
+h2 {
+    font-weight:bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:30px;
+    margin:0;
+    margin-bottom:18px;
+}
+.divviduj {
+    background-color:rgb(255, 249, 241);
+    padding:15px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.45);
+    margin-bottom:30px;
+}
+p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+.ats {
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    background-color: #032B43;
+    border-radius: 14px;
+    padding:6px;
+    border:none;
+    vertical-align: middle;
+}
+.ats:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+input {
+    border-width: 3px;
+    border-color:#032B43;
+    border-radius:14px;
+    font-size:15px;
+    padding:3px;
+    vertical-align: middle;
+}
+.imgholder {
+    height:120px;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-left:15px;
+    padding:0px;
+    vertical-align: middle;
+}
+.teorija {
+    margin-top:18px;
+    margin-bottom:18px;
+}

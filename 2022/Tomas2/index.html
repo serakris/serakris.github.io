@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "stilius.css">
+        <title>Atspėk žodį</title>
+        <script src="script2.js"></script>
+    </head>
+    <body>
+        <p class = "bold_textB">Sugalvokite žodį</p>
+        <p id = "output"></p>
+        <div class = "RaidziuIvedimas">
+            <p class = "simple_textB">Įveskite savo sugalvoto žodžio raidžių skaičių</p>
+            <div id = "input">
+                <input placeholder = "Įveskite..." class = "ivestis" type = "number" id = "RaidziuSkaicius" min = "2" max = "25">
+                <div class = "mygtukas" onclick = "StartGame()"><p class = "small_textW">Pradėti žaidimą</p></div>
+            </div>
+            
+            <p class = "simple_textB" id = "Ilgis_error">Error text</p>
+        
+            <div id = "zodis" >
+                <div class = "raide" onclick = "Raide(0)" >
+                    <p class = "raide_tekstas">A</p>
+                </div>
+                <div class = "raide" onclick = "Raide(1)" >
+                    <p class = "raide_tekstas">Ą</p>
+                </div>
+                <div class = "raide" onclick = "Raide(2)" >
+                    <p class = "raide_tekstas">B</p>
+                </div>
+                <div class = "raide" onclick = "Raide(3)" >
+                    <p class = "raide_tekstas">C</p>
+                </div>
+                <div class = "raide" onclick = "Raide(4)" >
+                    <p class = "raide_tekstas">Č</p>
+                </div>
+                <div class = "raide" onclick = "Raide(5)" >
+                    <p class = "raide_tekstas">D</p>
+                </div>
+                <div class = "raide" onclick = "Raide(6)" >
+                    <p class = "raide_tekstas">E</p>
+                </div>
+                <div class = "raide" onclick = "Raide(7)" >
+                    <p class = "raide_tekstas">Ę</p>
+                </div>
+                <div class = "raide" onclick = "Raide(8)" >
+                    <p class = "raide_tekstas">Ė</p>
+                </div>
+                <div class = "raide" onclick = "Raide(9)" >
+                    <p class = "raide_tekstas">F</p>
+                </div>
+                <div class = "raide" onclick = "Raide(10)" >
+                    <p class = "raide_tekstas">G</p>
+                </div>
+                <div class = "raide" onclick = "Raide(11)" >
+                    <p class = "raide_tekstas">H</p>
+                </div>
+                <div class = "raide" onclick = "Raide(12)" >
+                    <p class = "raide_tekstas">I</p>
+                </div>
+                <div class = "raide" onclick = "Raide(13)" >
+                    <p class = "raide_tekstas">Į</p>
+                </div>
+                <div class = "raide" onclick = "Raide(14)" >
+                    <p class = "raide_tekstas">Y</p>
+                </div>
+                <div class = "raide" onclick = "Raide(15)" >
+                    <p class = "raide_tekstas">J</p>
+                </div>
+                <div class = "raide" onclick = "Raide(16)" >
+                    <p class = "raide_tekstas">K</p>
+                </div>
+                <div class = "raide" onclick = "Raide(17)" >
+                    <p class = "raide_tekstas">L</p>
+                </div>
+                <div class = "raide" onclick = "Raide(18)" >
+                    <p class = "raide_tekstas">M</p>
+                </div>
+                <div class = "raide" onclick = "Raide(19)" >
+                    <p class = "raide_tekstas">N</p>
+                </div>
+                <div class = "raide" onclick = "Raide(20)" >
+                    <p class = "raide_tekstas">O</p>
+                </div>
+                <div class = "raide" onclick = "Raide(21)" >
+                    <p class = "raide_tekstas">P</p>
+                </div>
+                <div class = "raide" onclick = "Raide(22)" >
+                    <p class = "raide_tekstas">R</p>
+                </div>
+                <div class = "raide" onclick = "Raide(23)" >
+                    <p class = "raide_tekstas">S</p>
+                </div>
+                <div class = "raide" onclick = "Raide(24)" >
+                    <p class = "raide_tekstas">Š</p>
+                </div>
+                <div class = "raide" onclick = "Raide(25)" >
+                    <p class = "raide_tekstas">T</p>
+                </div>
+                <div class = "raide" onclick = "Raide(26)" >
+                    <p class = "raide_tekstas">U</p>
+                </div>
+                <div class = "raide" onclick = "Raide(27)" >
+                    <p class = "raide_tekstas">Ų</p>
+                </div>
+                <div class = "raide" onclick = "Raide(28)" >
+                    <p class = "raide_tekstas">Ū</p>
+                </div>
+                <div class = "raide" onclick = "Raide(29)" >
+                    <p class = "raide_tekstas">V</p>
+                </div>
+                <div class = "raide" onclick = "Raide(30)" >
+                    <p class = "raide_tekstas">Z</p>
+                </div>
+                <div class = "raide" onclick = "Raide(31)" >
+                    <p class = "raide_tekstas">Ž</p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "klausimas" id = "kl_1">
+            <div class = "klausimas_div"><p class = "klausimas_text" id = "kl_text1">Ar jūsų žodyje yra raidė A?</p></div>
+            
+            <div id = "ats_button_true" onclick = "Atsakymas(true)" ><p class = "simple_textW">Taip</p></div>
+            <div id = "ats_button_false" onclick = "Atsakymas(false)" ><p class = "simple_textW">Ne</p></div>
+            
+        </div>
+        <div class = "klausimas" id = "kl_2">
+            <div class = "klausimas_div"><p class = "klausimas_text" id = "kl_text2">Pažymėkite visas vietas, kur jūsų žodyje yra raidė A.</p></div>
+            <div id = "ats_button_p" onclick = "Patvirtinti()" ><p class = "simple_textW">Patvirtinti</p></div>
+            <div id = "ats_button_I" onclick = "Isvalyti()" ><p class = "simple_textW">Išvalyti</p></div>
+        </div>
+        <div class = "klausimas" id = "kl_3">
+            <div class = "klausimas_div"><p class = "klausimas_text" id = "kl_text3">Ar jūsų žodis yra LABAS? &#128513</p></div>
+            
+            <div id = "ats_button_true" onclick = "EndGame()" ><p class = "simple_textW">Taip</p></div>
+            <div id = "ats_button_false" onclick = "NoWord()" ><p class = "simple_textW">Ne</p></div>
+            
+        </div>
+        <div class = "klausimas" id = "kl_4">
+            <div class = "klausimas_div"><p class = "klausimas_text" id = "kl_text4">Nežinau, koks yra jūsų žodis &#128533</p></div>
+            <div class = "ats_button_R" onclick = "Restart()" ><p class = "simple_textW">Žaisti iš naujo</p></div>
+            
+        </div>
+        <div class = "klausimas" id = "kl_5">
+            <div class = "klausimas_div"><p class = "klausimas_text" id = "kl_text5">Jūsų žodis yra LABAS &#128513</p></div>
+            <div class = "ats_button_R" onclick = "Restart()" ><p class = "simple_textW">Žaisti iš naujo</p></div>
+            
+        </div>
+        <div id = "buttonL" class = "ats_button_R" onclick = "Restart()" ><p class = "simple_textW">Žaisti iš naujo</p></div>
+
+        <script src="logika.js"></script>
+        
+    </body>
+</html>

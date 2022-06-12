@@ -1,0 +1,75 @@
+body {
+    background-color: #FFD3DA;
+}
+.virsuj {
+    height: 50px;
+    text-align:center;
+}
+.title {
+    font-weight: bold;
+    color: #AF125A;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+    margin:0;
+    padding-top:8px;
+    display: inline-block;
+}
+.topbtn {
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    background-color: #AF125A;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+.topbtn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+.konverteriai {
+    background-color: white;
+    padding:15px;
+    margin:15px;
+    height:fit-content;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.45);
+    width: 1fr;
+}
+p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    text-align:center;
+}
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align:center;
+    margin:30px;
+}
+.btn {
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    background-color: #1c4429;
+    border-radius: 16px;
+    padding:5px;
+    width:80px;
+    border:none;
+    vertical-align: middle;
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+input {
+    border-width: 3px;
+    border-color:#1c4429;
+    border-radius:18px;
+    font-size:18px;
+    padding:4px;
+    vertical-align: middle;
+}

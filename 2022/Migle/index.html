@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>Testas</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="quizz.css">
+    </head>
+    <body>
+        <h1>Testas apie KTU gimnaziją</h1>
+
+        <div class="kl">
+        <h2>1. Kada KTU gimnazija buvo įkurta?</h2>
+        <div class="bt">
+        <button type="button" class="ket" onclick="neteisingas1()">1984</button>
+        <button type="button" class="ket" onclick="neteisingas1()">1673</button>
+        </div>
+        <div class="bt">
+        <button type="button" class="ket" onclick="teisingas1()">1989</button>
+        <button type="button" class="ket" onclick="neteisingas1()">2058</button>
+        </div>
+        <p id="atsakymas1"></p>
+        </div>
+        
+        
+        <div class="kl">
+        <h2>2. Koks yra mūsų direktoriaus Kivaro vardas?</h2>
+        <div class="eil">
+        <input id="vardastom" >
+    </div>
+        <div class="vienas">
+        <button type="button" onclick="tikrinti2()" class="vienas">Tikrinti</button>
+        </div> 
+        <div>
+        <p id="atsakymas2"></p>
+        </div>
+        </div>
+
+        <div class="kl">
+        <h2>3. Kelintame aukšte yra išmanioji šiukšliadėžė?</h2>
+        <div class="bt">
+        <button type="button" class="ket"  onclick="teisingas3()">1</button>
+        <button type="button" class="ket"  onclick="neteisingas3()">2</button>
+        </div>
+        <div class="bt">
+        <button type="button" class="ket" onclick="neteisingas3()">3</button>
+        <button type="button" class="ket" onclick="neteisingas3()">4</button>
+        </div>  
+        <div class="bt">
+        <button type="button" class="ket" onclick="neteisingas3()">5</button>
+        <button type="button" class="ket" onclick="neteisingas3()">6</button>
+        </div>
+        <p id="atsakymas3"></p>
+        </div>
+
+        <div class="kl" >
+        <h2>4. Koks yra šių metų prezidentės vardas?</h2>
+         <div class="eil">
+        <input id="vardaskotr" >
+    </div>
+        <div class="vienas">
+            <button type="button" onclick="tikrinti4()">Tikrinti</button>
+            </div> 
+            <div>
+            <p id="atsakymas4"></p>
+            </div>
+        </div>
+
+        <div class="kl">
+        <h2>5. Kiek lietuvių kalbos mokytojų yra mokykloje?</h2>
+        <div class="bt">
+        <button type="button" class="ket" onclick="neteisingas5()"> 0 </button>
+        <button type="button" class="ket" onclick="teisingas5()">3</button>
+        </div>
+        <div class="bt">
+        <button type="button" class="ket" onclick="neteisingas5()">-3</button>
+        <button type="button" class="ket" onclick="neteisingas5()">Taip</button>
+        </div>
+        <p id="atsakymas5"></p>
+        </div>
+        
+        <div class="kl">
+        <h2>6. Kiek skirtingų metų knygų yra išleista? </h2>
+        <div class="bt">
+        <button type="button" class="ket" onclick="teisingas6()">28</button>
+        <button type="button" class="ket" onclick="neteisingas6()">36</button>
+        </div>
+        <div class="bt">
+        <button type="button" class="ket" onclick="neteisingas6()">12</button>
+        <button type="button" class="ket" onclick="neteisingas6()">21</button>
+        </div>
+        <p id="atsakymas6"></p>
+        </div>
+
+        <div class="kl" >
+        <h2>7. Kas geriau - R. V. Lingys ar J. Jarmalauskienė?</h2>
+         <div class="eil">
+             <input id="ats7" >
+            </div>
+        <div class="vienas">
+            <button type="button" onclick="tikrinti7()">Tikrinti</button>
+            </div> 
+            <div>
+            <p id="atsakymas7"></p>
+            </div>
+        </div>
+         
+        <div class="kl">
+            <h2>8. Kiek klasių (Ą. Merčaičio duomenimis) KTU gimnazijoje neturi arbatinuko? </h2>
+            <div class="bt">
+            <button type="button" class="ket" onclick="neteisingas9()">5</button>
+            <button type="button" class="ket" onclick="neteisingas9()">0</button>
+            </div>
+            <div class="bt">
+            <button type="button" class="ket" onclick="teisingas9()">3</button>
+            <button type="button" class="ket" onclick="neteisingas9()">15</button>
+            </div>
+            <p id="atsakymas9"></p>
+            </div>
+
+        <div class="kl" >
+        <h2>9. Ar visos akų klasės yra draugiškiausios klasės kiekvienoje laidoje?</h2>
+         <div class="eil">
+             <input id="ats8" >
+            </div>
+        <div class="vienas">
+            <button type="button" onclick="tikrinti8()">Tikrinti</button>
+            </div> 
+            <div>
+            <p id="atsakymas8"></p>
+            </div>
+        </div>
+
+        
+        <h1>Ačiū už jūsų laiką!</h1>
+
+        <script src="script.js"></script>
+    </body>
+</html>

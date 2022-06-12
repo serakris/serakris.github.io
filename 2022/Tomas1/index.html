@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>tic tac toe</title>
+        <link rel = "stylesheet" href = "stilius.css">
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "left">
+                <input type = "checkbox" id = "checkval" onclick = ShowVal() unchecked>
+            </div>
+            <div class = "center">
+                <button type="button" onclick=Start(1) class = "StartButton"><img src = "Ximg.png" class = "ButtonImage"></button>
+                <button type="button" onclick=Start(2) class = "StartButton"><img src = "Oimg.png" class = "ButtonImage"></button>
+                <div class = "lenta">
+                    <div class = "langelis">
+                        <div class = "button1" onclick = MovePlayerEnd(0)></div>
+                        <img src = "Ximg.png" class = "imgX">
+                        <img src = "Oimg.png" class = "imgY">
+                        <p class = "CalcVal">0</p>
+                    </div>
+                    <div class = "langelis">
+                        <div class = "button1" onclick = MovePlayerEnd(1)></div>
+                        <img src = "Ximg.png" class = "imgX">
+                        <img src = "Oimg.png" class = "imgY">
+                        <p class = "CalcVal">0</p>
+                    </div>
+                    <div class = "langelis">
+                        <div class = "button1" onclick = MovePlayerEnd(2)></div>
+                        <img src = "Ximg.png" class = "imgX">
+                        <img src = "Oimg.png" class = "imgY">
+                        <p class = "CalcVal">0</p>
+                    </div>
+                    <div class = "langelis">
+                        <div class = "button1" onclick = MovePlayerEnd(3)></div>
+                        <img src = "Ximg.png" class = "imgX">
+                        <img src = "Oimg.png" class = "imgY">
+                        <p class = "CalcVal">0</p>
+                    </div>
+                    <div class = "langelis">
+                        <div class = "button1" onclick = MovePlayerEnd(4)></div>
+                        <img src = "Ximg.png" class = "imgX">
+                        <img src = "Oimg.png" class = "imgY">
+                        <p class = "CalcVal">0</p>
+                    </div>
+                    <div class = "langelis">
+                        <div class = "button1" onclick = MovePlayerEnd(5)></div>
+                        <img src = "Ximg.png" class = "imgX">
+                        <img src = "Oimg.png" class = "imgY">
+                        <p class = "CalcVal">0</p>
+                    </div>
+                    <div class = "langelis">
+                        <div class = "button1" onclick = MovePlayerEnd(6)></div>
+                        <img src = "Ximg.png" class = "imgX">
+                        <img src = "Oimg.png" class = "imgY">
+                        <p class = "CalcVal">0</p>
+                    </div>
+                    <div class = "langelis">
+                        <div class = "button1" onclick = MovePlayerEnd(7)></div>
+                        <img src = "Ximg.png" class = "imgX">
+                        <img src = "Oimg.png" class = "imgY">
+                        <p class = "CalcVal">0</p>
+                    </div>
+                    <div class = "langelis">
+                        <div class = "button1" onclick = MovePlayerEnd(8)></div>
+                        <img src = "Ximg.png" class = "imgX">
+                        <img src = "Oimg.png" class = "imgY">
+                        <p class = "CalcVal">0</p>
+                    </div>
+                </div>
+                <p id = "WinText">Pasirinkite, kad pradėti žaidimą</p>
+            </div>
+        </div>
+        <script src="logika.js"></script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    background-color: #FFD3DA;
+}
+p {
+    font-weight: bold;
+    color: #AF125A;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 49px;
+    text-align: right;
+}
+button {
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    background-color: #AF125A;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+img {
+    height: 200px;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    box-align: center;
+    margin-top: 165px;
+    margin-bottom: 50px;
+  }
+.mygtukai {
+    text-align:center;
+    margin-top:10px;
+}

@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="arbatpinigiai.css">
+    </head>
+    <body>
+<div id="dėžutė">
+  <h1>Arbatpinigių skaičiuoklė</h1>
+  <div id="skaičiuoklė">
+
+
+    <form>
+      <p>Kiek kainavo Jūsų sąskaita?
+        <p>
+            € <input id="sąskaitaamt" type="text" placeholder="Sąskaitos kaina">
+
+          <p>Koks buvo Jūsų aptarnavimas?
+            <p>
+              <select id="aptkokybė">
+            <option disabled selected value="0">-- pasirinkite variantą --</option>
+            <option value="0.2">20&#37; &#45; Nepakartojamas</option>
+            <option value="0.15">15&#37; &#45; Geras</option>
+            <option value="0.1">10&#37; &#45; Vidutinis</option>
+            <option value="0.05">5&#37; &#45; Blogas</option>
+            <option value="0.03">3&#37; &#45; Tragiškas</option>
+        </select>
+
+    </form>
+    <p>Kiek žmonių dalinsis sąskaita?</p>
+    <input id="žmonėsamt" type="text" placeholder="Žmonių skaičius"> žmonės
+    <button type="button" id="calculate">Suskaičiuoti!</button>
+
+  </div>
+  <div id="galutarbat">
+    <sup>€</sup><span id="arbat">0.00</span>
+    <small id="atskirai">nuo kiekvieno</small>
+  </div>
+
+</div>
+
+
+<script type="text/javascript" src="arbatpinigiai.js"></script>
+</body>
+</html>

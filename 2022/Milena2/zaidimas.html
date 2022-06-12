@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>atspėk žodį</title>
+        <link rel="stylesheet" href="game_style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="zaidimas">
+                <a href='index.html'><button class="neklaviatura">Grįžti į pradžią</button></a>
+                <div class="spejimai" style="height:20px;"><h1 class="spejimai">Neteisingi spėjimai: <span id="padarytosKlaidos">0</span> iš <span id='klaiduMax'>-</span></h1></div>
+                <div class="spejimai" style="height:20px;"><p id="zodis"></p></div>
+                <div class="raides" id="klaviatura"></div>
+                <div class= 'mygtukas'><button class="neklaviatura" onclick="isNaujo()">iš naujo</button></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

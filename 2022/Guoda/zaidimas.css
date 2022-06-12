@@ -1,0 +1,117 @@
+﻿body {
+    background-image: url(https://t4.ftcdn.net/jpg/02/28/23/43/360_F_228234335_RrmgPkZW1EyMDfLqwfHKIgkeXbGNi6T0.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.main {
+    margin: 10vh auto 0 auto;
+    max-width: 700px;
+    height:610px;
+    align-self: center;
+    box-shadow: 4px 4px 5px crimson;
+    padding: 20px;
+    background-color:rgb(222 91 91);
+    border-radius:25px;
+}
+.title{
+    font-size:50px;
+    height:100px;
+    padding:15px;
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    text-shadow:5px 5px 7px red;
+    align-content:center;
+    
+}
+.zh {
+    max-width: 310px;
+    margin: auto;
+    align-self: center;
+    align-content: center;
+    height: 30px;
+    padding:15px;
+}
+#zodis {
+    float: left;
+    color: white;
+    text-shadow: 1px 1px 2px red;
+    text-decoration-line:underline;
+}
+#hint {
+    float:right;
+    color: yellow;
+    text-shadow: 2px 2px 3px crimson;
+
+}
+.display {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px;
+    color: yellow;
+    text-shadow:2px 2px 3px crimson;
+    font-size:25px;
+}
+.input1 {
+    align-self:center;
+    text-align:center;
+    padding:50px;
+}
+
+#input{
+    border-radius:25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:40px;
+    text-align:center;
+    box-shadow: 2px 2px 3px crimson;
+    border-style: hidden;
+    
+}
+.spejimas {
+    align-self: center;
+    float:left;
+    padding:7px;
+    margin: 10vh auto 0 auto;
+    width: 150px;
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 27px;
+    border-radius: 25px;
+    text-shadow:1px 1px 2px crimson;
+    box-shadow:2px 2px 3px crimson;
+}
+.spejimas:hover {
+     background-color: white;
+     color: salmon;  
+     transition: 0.2s ease-in-out;      
+    }
+    
+.spejimas1 {
+    align-self: center;
+    float:right;
+    padding:7px;
+    margin: 10vh auto 0 auto;
+    width: 150px;
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 27px;
+    border-radius: 25px;
+    text-shadow:1px 1px 2px crimson;
+    box-shadow:2px 2px 3px crimson;     
+}
+.pag {
+    width: 400px;
+    align-self: center;
+    margin: 10vh auto 0 auto;
+
+}
+.spejimas1:hover {
+    background-color: white;
+    color: salmon;  
+    transition: 0.2s ease-in-out;      
+}

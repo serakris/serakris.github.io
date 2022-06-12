@@ -1,0 +1,90 @@
+body {
+    background-image: url(bg.png);
+    background-repeat: repeat;
+    background-size:400px;
+    background-color: rgb(233, 209, 253);
+}
+.container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zaidimas {
+    display:inline-block;
+    width:90%;
+    height:85%;
+    background-color:white;
+    border-radius:35px;
+    margin:5%;
+    padding:20px;
+    box-shadow: 8px 8px 25px black;
+}
+button {
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    border-radius:5px;
+    border:0px;
+    padding:14px;
+    text-align:center;
+    color:black;
+    background-color: rgb(200, 122, 216);
+    margin:3px;
+    transition: 0.2s;
+}
+button:hover {
+    cursor: pointer;
+    background-color:white;
+    color:  rgb(200, 122, 216);
+}
+#baigti {
+    float:right;
+}
+.spejimai {
+    font-family: 'Courier Prime', monospace;
+    font-size: 18px;
+    font-weight:normal;
+    padding:20px;
+    padding-top:8px;
+    text-align:center;
+}
+.raides {
+    text-align:center;
+    padding:20px;
+    width:46%;
+    padding-left:27%;
+    padding-right:27%;
+    padding-top:3%;
+}
+.neklaviatura {
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    border-radius:28px;
+    border:0px;
+    padding:15px;
+    padding-top:8px;
+    padding-bottom:8px;
+    text-align:center;
+    color:white;
+    background-color: rgb(84, 42, 124);
+    transition: 0.3s;
+}
+.neklaviatura:hover {
+    cursor: pointer;
+    background-color:white;
+    color:black;
+}
+#klaviatura {
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+}
+.mygtukas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}

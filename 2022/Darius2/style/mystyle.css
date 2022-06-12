@@ -1,0 +1,49 @@
+img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 10px;
+}
+#board {
+    width: 700px;
+    margin:auto;
+}
+#visas{
+    text-align: center;
+    margin:auto;
+    margin-top:5%;
+}
+#buttonas{
+    margin: auto;
+    width:100px;
+    height: 50px;
+    border:none;
+    background-color:rgb(71, 71, 71);
+    color:rgb(238, 238, 238);
+    margin-bottom:25px;
+    border:1px solid black;
+}
+#pasirink{
+    padding:15px;
+    width:250px;
+    background-color: rgb(58, 48, 35);
+    color:rgb(238, 238, 238);
+    margin:auto;
+}
+body{
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-color:rgb(207, 195, 195);
+}
+#board{
+    background-color: teal;
+    border:5px;
+}
+#startmenu{
+    background-color:rgb(226, 226, 226);
+    border:5px solid rgb(65, 42, 42);
+    padding-top:15px;
+    padding-bottom:15px;
+    width:400px;
+    margin:auto;
+}

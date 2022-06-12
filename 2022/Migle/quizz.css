@@ -1,0 +1,65 @@
+body{
+    background-color:#b30000;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+    font-style: oblique;
+}
+h2{
+  text-align: center;
+  color:#ff9900;
+  font-style: oblique;
+
+}
+.kl{
+    margin:auto;
+    width:70%;
+}
+.bt 
+{
+    margin:auto;
+    width:50%;
+}
+.ket{
+    width:49%;
+    margin-bottom: 1%;
+}
+button{
+    background-color:#e65c00;
+    border-style: solid;
+    border-color: #660000;
+    border-width: 3px;
+}
+.eil{
+    
+    margin:auto;
+    width:200px;
+    
+}
+input{
+    background-color: rgb(252, 160, 107);
+    border-color:#000000;
+    width:200px
+}
+p{
+    text-align:center;
+    font-size: 20px;
+    color:white;
+}
+.vienas{
+ margin:auto;
+ margin-top: 1%;
+ width:60px;
+}
+#atsakymas7{
+   color:purple;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #0FFF50;
+}
+#atsakymas8{
+  font:cursive;
+  font-style: oblique;
+}

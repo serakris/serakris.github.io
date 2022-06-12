@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    align-items: center;
+    background-color: #ffc0cb;
+}
+
+input{
+    width: 2cm;
+    height: 2cm;
+    text-align: center;
+    border-radius: 10%;
+    outline: hotpink;
+    border-color: rgb(15, 129, 221);
+    box-shadow: rgb(233, 191, 212);
+    font-size: 1cm;
+    
+}
+
+#lentele1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mygtukas{
+    width: 5cm;
+    height: 1cm;
+    border-radius: 30%;
+    outline: rgb(15, 99, 224);
+    fill: rgb(70, 112, 226);
+    transition-duration: 0.2s;
+}
+
+.mygtukas:hover {
+    background-color: #0f70e0;
+    color: rgb(252, 252, 252);
+  }
+
+  #pav{
+    font-size: 60px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  .raides{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30%;
+    width: 1cm;
+    height: 1cm;
+  }
+
+#atsakymas{
+    font-size: 30px;
+}
+

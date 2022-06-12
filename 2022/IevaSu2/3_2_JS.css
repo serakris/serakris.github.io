@@ -1,0 +1,79 @@
+body
+{
+    background-color: rgb(232, 250, 215);
+    color: rgb(79, 179, 79);
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 19px;
+    max-width: 450px;
+}
+
+h1
+{
+    font-size: 43px;
+}
+
+h2
+{
+    font-size: 28px;
+}
+
+button
+{
+    font-size: 20px;
+    background-color: rgb(119, 201, 125);
+    border-color: rgb(60, 102, 59);
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.generuoti
+{
+    font-size: 17px;
+    padding: 2px;
+}
+
+#zodis 
+{
+    letter-spacing: 4px;
+}
+
+.raides-mygtukas
+{
+    width: 40px;
+}
+
+.raides-mygtukas.nera 
+{
+    background-color: red;
+    transition: background-color 1000ms linear;
+    color: white;
+    transition: color 1000ms linear;
+
+    transform: rotate(180deg );            
+    transition: transform 150ms ease;
+}
+
+.raides-mygtukas.yra 
+{
+    background-color: green;
+    transition: background-color 1000ms linear;
+    color: white;
+    transition: color 1000ms linear;
+}
+
+
+
+img 
+{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.neatspeta-raide 
+{
+    color: red;
+}

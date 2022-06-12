@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Kortelių žaidimas</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="card.css">
+        <script src="card.js"></script>
+    </head>
+    <body onload="chronometras()">
+        <div id='kontentas' class="zaidimo_lentele">
+            <div class="mygtukai"></div>
+                <button class="prad_mygt" onclick="pradeti();">Pradėti</button>
+                <div class="informacija"></div>
+                    <div class="ejimas" id="ejimai">0 ėjimų</div>
+                    <div class="laikrodis" id="laikas">Laikas: 00:00</div>
+                </div>
+            </div>
+            <div class="lenteles-konteineris">
+                <table>
+                    <tr>
+                        <td id="td0" class="nieko" onclick="paspaudimasTD(this)"></td>
+                        <td id="td1" class="nieko" onclick="paspaudimasTD(this)"></td>
+                        <td id="td2" class="nieko" onclick="paspaudimasTD(this)"></td>
+                        <td id="td3" class="nieko" onclick="paspaudimasTD(this)"></td>
+                    </tr>
+                    <tr>
+                        <td id="td4" class="nieko" onclick="paspaudimasTD(this)"></td>
+                        <td id="td5" class="nieko" onclick="paspaudimasTD(this)"></td>
+                        <td id="td6" class="nieko" onclick="paspaudimasTD(this)"></td>
+                        <td id="td7" class="nieko" onclick="paspaudimasTD(this)"></td>
+                    <tr>
+                        <td id="td8" class="nieko" onclick="paspaudimasTD(this)"></td>
+                        <td id="td9" class="nieko" onclick="paspaudimasTD(this)"></td>
+                        <td id="td10" class="nieko" onclick="paspaudimasTD(this)"></td>
+                        <td id="td11" class="nieko" onclick="paspaudimasTD(this)"></td>
+                    </tr>
+                    <tr>
+                        <td id="td12" class="nieko" onclick="paspaudimasTD(this)"></td>
+                        <td id="td13" class="nieko" onclick="paspaudimasTD(this)"></td>
+                        <td id="td14" class="nieko" onclick="paspaudimasTD(this)"></td>
+                        <td id="td15" class="nieko" onclick="paspaudimasTD(this)"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

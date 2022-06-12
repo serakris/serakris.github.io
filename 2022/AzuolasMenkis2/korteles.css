@@ -1,0 +1,41 @@
+img{
+	border: solid 4px rgb(27,45,93);
+	height: 400px;
+	width: 290px;
+	border-radius: 25px;
+}
+.korteles{
+	
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+	
+	
+}
+body{
+background-image: url("back1.jpg");
+}
+.tekstas{
+	color: black;
+	display: inline-block;
+	font-size: 30px;
+	font-family: "Copperplate",	Fantasy;
+}
+.box{
+	background-color: white;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	margin: 0;
+	text-align: center;
+}
+body{
+	padding:0;
+	margin:0;
+}
+#timeris
+{
+	margin-left: 1470px;
+	display: inline;
+	font-size: 30px;
+	font-family: "Copperplate",	Fantasy;
+}

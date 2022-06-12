@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Matų konvertavimas</title>
+        <link rel="stylesheet" href="konvertavimas.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="virsuj">
+            <a href="index.html"><p class="title">Mokykis chemijos!</p></a>
+            <img src="logo.png" style="height:45px; vertical-align:middle;">
+            <a href="https://ptable.com/?lang=lt#Savyb%C4%97s" target=”_blank”><button class="topbtn">Periodinė elementų lentelė</button></a>
+            <a href="uzdaviniai.html"><button class="topbtn">Uždaviniai</button></a>
+            <a href="konvertavimas.html"><button class="topbtn" style="opacity: 0.3;">Matavimo vienetų konvertavimas</button></a>
+        </div>
+            <hr color="#AF125A">
+            <div class="konverteriai">
+                <h1>Kubiniai centimetrai (cm&#179;) į litrus (l)</h1>
+                <p><input type="text" placeholder="cm&#179;" id="treciasinp"> &nbsp;&nbsp;&nbsp;&nbsp; Kubinių centimetrų yra &nbsp;&nbsp; <span id="atstrys">. . .</span> &nbsp;&nbsp; litrų &nbsp;&nbsp;&nbsp;&nbsp; <button class="btn" id="treciasbtn">Versti</button></p>
+            </div>
+        <div class="konverteriai">
+            <h1>Kubiniai metrai (m&#179;) į kubinius centimetrus (cm&#179;)</h1>
+            <p><input type="text" placeholder="m&#179;" id="pirmasinp"> &nbsp;&nbsp;&nbsp;&nbsp; Kubinių metrų yra &nbsp;&nbsp; <span id="ats">. . .</span> &nbsp;&nbsp; kubinių centimetrų &nbsp;&nbsp;&nbsp;&nbsp; <button class="btn" id="pirmasbtn">Versti</button></p>
+        </div>
+        <div class="konverteriai">
+            <h1>Kilogramai (kg) į gramus (g)</h1>
+            <p><input type="text" placeholder="kg" id="antrasinp"> &nbsp;&nbsp;&nbsp;&nbsp; Kilogramų yra &nbsp;&nbsp; <span id="atsdu">. . .</span> &nbsp;&nbsp; gramų &nbsp;&nbsp;&nbsp;&nbsp; <button class="btn" id="antrasbtn">Versti</button></p>
+        </div>
+        <script src="konvertavimas.js"></script>
+    </body>
+</html>

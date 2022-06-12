@@ -1,0 +1,74 @@
+body
+{
+    margin: 0;
+    background-image: linear-gradient(#659999, #f4791f);
+}
+
+td {
+  width: 150px;
+  height: 150px;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 64px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.paslepta
+{
+    font-size: 0;
+    background-color: #6C5B7B;
+}
+
+.nieko
+{
+    font-size: 0;
+    background-color: #6C5B7B;
+}
+  
+.atslepta
+{
+    background-color: #804455;
+}
+
+.zaidimo_lentele
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 500px;
+}
+
+.lenteles-konteineris
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+    box-shadow: 10px 10px 2px 1px rgba(137, 33, 107, 0.1);
+    background-image: linear-gradient(45deg, #DA4453, #89216B);
+}
+
+.zaidimo_lentele
+{
+    padding-top: 50px;
+}
+
+.prad_mygt
+{
+    width: 150px;
+    height: 70px;
+    font-size: 32px;
+    font-family: "Helvetica";
+}
+
+.ejimas
+{
+    font-size: 24px;
+    font-family: "Helvetica";
+}
+
+.laikrodis
+{
+    font-size: 24px;
+    font-family: "Helvetica";
+}

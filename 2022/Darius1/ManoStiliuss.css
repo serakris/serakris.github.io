@@ -1,0 +1,47 @@
+h1{
+    text-align:center;
+}
+#pagr{
+    width:80%;
+    margin:auto;
+    padding-top:10px;
+}
+#pagrr{
+    margin:auto;
+}
+#text {
+    user-select: none;
+    position:absolute;
+    margin-top:-21px;
+    margin-left:2px;
+    font-size:18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(80, 128, 9);
+  }
+body{
+    background-color: black;
+    color:rgb(119, 194, 7);
+}
+input{
+    width: 100%;
+    border: none;
+    margin:none;
+    background-color:transparent;
+    color: rgb(119, 194, 7);
+    font-size:18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:relative;
+    z-index: 10;
+  }
+textarea:focus, input:focus{
+    outline: none;
+}
+button{
+    background-color:black;
+    color:rgb(119, 194, 7);
+    border:1px solid rgb(119, 194, 7);
+}
+body{
+    margin:auto;
+    text-align: center;
+}

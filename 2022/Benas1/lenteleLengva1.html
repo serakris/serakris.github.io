@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Surask žodžius!</title>
+        <meta charset="UTF-8">
+        <link rel="icon" sizes="16x16" href="favicon-16x16.png">
+        <link rel="stylesheet" href="stilius_zodis.css">
+        <script src="zodis.js"></script>
+    </head>
+    <body onload="chronometras()">
+        <h1 class="headingas"><a class="mygtukas" onclick="window.location.href='zodis.html'">Surask žodžius!</a></h1>
+        <div class="konteineris_zaidimo" id="zaidimas">
+            <div class="UI">
+                <table class="grid_easy">
+                    <tr>
+                        <td zodis="stogas" id="raide1" onclick="divclick('raide1');garsas();">S</td>
+                        <td zodis="gal" id="raide2" onclick="divclick('raide2');garsas();">G</td>
+                        <td id="raide3" onclick="divclick('raide3');garsas();">F</td>
+                        <td id="raide4" onclick="divclick('raide4');garsas();">J</td>
+                        <td zodis="aciu" id="raide5" onclick="divclick('raide5');garsas();">A</td>
+                        <td id="raide6" onclick="divclick('raide6');garsas();">N</td>
+                    </tr>
+                    <tr>
+                        <td zodis="stogas" id="raide7" onclick="divclick('raide7');garsas();">T</td>
+                        <td id="raide8" onclick="divclick('raide8');garsas();">S</td>
+                        <td zodis="gal" id="raide9" onclick="divclick('raide9');garsas();">A</td>
+                        <td id="raide10" onclick="divclick('raide10');garsas();">P</td>
+                        <td zodis="aciu" id="raide11" onclick="divclick('raide11');garsas();">Č</td>
+                        <td id="raide12" onclick="divclick('raide12');garsas();">Z</td>
+                    </tr>
+                    <tr>
+                        <td zodis="stogas" id="raide13" onclick="divclick('raide13');garsas();">O</td>
+                        <td id="raide14" onclick="divclick('raide14');garsas();">Y</td>
+                        <td id="raide15" onclick="divclick('raide15');garsas();">R</td>
+                        <td zodis="gal" id="raide16" onclick="divclick('raide16');garsas();">L</td>
+                        <td zodis="aciu" id="raide17" onclick="divclick('raide17');garsas();">I</td>
+                        <td id="raide18" onclick="divclick('raide18');garsas();">D</td>
+                    </tr>
+                    <tr>
+                        <td zodis="stogas" id="raide19" onclick="divclick('raide19');garsas();">G</td>
+                        <td id="raide20" onclick="divclick('raide20');garsas();">F</td>
+                        <td id="raide21" onclick="divclick('raide21');garsas();">A</td>
+                        <td id="raide22" onclick="divclick('raide22');garsas();">C</td>
+                        <td zodis="aciu" id="raide23" onclick="divclick('raide23');garsas();">Ū</td>
+                        <td id="raide24" onclick="divclick('raide24');garsas();">Ė</td>
+                    </tr>
+                    <tr>
+                        <td zodis="stogas" id="raide25" onclick="divclick('raide25');garsas();">A</td>
+                        <td zodis="molis" id="raide26" onclick="divclick('raide26');garsas();">M</td>
+                        <td zodis="molis" id="raide27" onclick="divclick('raide27');garsas();">O</td>
+                        <td zodis="molis" id="raide28" onclick="divclick('raide28');garsas();">L</td>
+                        <td zodis="molis" id="raide29" onclick="divclick('raide29');garsas();">I</td>
+                        <td zodis="molis" id="raide30" onclick="divclick('raide30');garsas();">S</td>
+                    </tr>
+                    <tr>
+                        <td zodis="stogas" id="raide31" onclick="divclick('raide31');garsas();">S</td>
+                        <td zodis="pele" id="raide32" onclick="divclick('raide32');garsas();">P</td>
+                        <td zodis="pele" id="raide33" onclick="divclick('raide33');garsas();">E</td>
+                        <td zodis="pele" id="raide34" onclick="divclick('raide34');garsas();">L</td>
+                        <td zodis="pele" id="raide35" onclick="divclick('raide35');garsas();">Ė</td>
+                        <td id="raide36" onclick="divclick('raide36');garsas();">Č</td>
+                    </tr>
+                </table>
+                <div class="lenteles_UI">
+                    <div class="buttonai">
+                        <div class="mygtuku_div_left"><button class="tikrinti_mygtukas" type="button" onclick="tikrinti()">Tikrinti</button></div>
+                        <div class="mygtuku_div"><button class="atzymeti_mygtukas" type="button" onclick="atzymeti()">Atžymėti</button></div>
+                        <div class="mygtuku_div_right"><button class="isnaujo_mygtukas" type="button" onclick="window.location.href='lenteleLengva2.html'">Iš naujo</button></div>
+                    </div>
+                    <div class="chronometras"><div class="laikas" id="stopwatch">00:00</div></div>
+                    <div class="info_laukelis">
+                        <div class="zodziai">Žodžiai: 
+                            <span class="zodis" id="z_aciu">Ačiū</span>
+                            <span class="zodis" id="z_stogas">Stogas</span>
+                            <span class="zodis" id="z_pele">Pelė</span>
+                            <span class="zodis" id="z_gal">Gal</span>
+                            <span class="zodis" id="z_molis">Molis</span>
+                        </div>
+                        <div class="suklysta"><div id="suklydimas" class="suklysta_tekstas">Nesuklysta nė karto</div></div>
+                       <!-- <div class="rekordu_lentele"><div id="rekordas" class="suklysta_tekstas"></div></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
